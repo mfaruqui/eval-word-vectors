@@ -16,7 +16,7 @@ Each vector file should have one word vector per line as follows (space delimite
 
 ```the -1.0 2.4 -0.3 ...```
 
-## Evaluating on multiple word sim tasks
+### Evaluating on multiple word sim tasks
 
 ```python all_wordsim.py word_vec_file word_sim_file_dir```
 
