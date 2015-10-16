@@ -2,7 +2,7 @@
 Manaal Faruqui, mfaruqui@cs.cmu.edu
 
 Easy-to-use scripts for evaluating word vectors on a variety of tasks.
-These are the scripts that run being the online tool on ```http://www.wordvectors.org/```.
+These are the scripts that run behind the online tool on ```http://www.wordvectors.org/```.
 I will be adding more evaluation scripts here over the course of time.
 
 ### Requirements
