@@ -2,7 +2,7 @@
 Manaal Faruqui, mfaruqui@cs.cmu.edu
 
 Easy-to-use scripts for evaluating word vectors on a variety of tasks.
-These are the scripts that run being the online tool on wordvectors.org .
+These are the scripts that run being the online tool on ```http://www.wordvectors.org/```.
 I will be adding more evaluation scripts here over the course of time.
 
 ### Requirements
@@ -16,16 +16,29 @@ Each vector file should have one word vector per line as follows (space delimite
 
 ```the -1.0 2.4 -0.3 ...```
 
-### Evaluation
-
-## Running on multiple word sim tasks
+## Evaluating on multiple word sim tasks
 
 ```python all_wordsim.py word_vec_file word_sim_file_dir```
 
 ```python all_wordsim.py skip-gram-vecs.txt data/word-sim/```
 
-## Running on one word sim task
+### Evaluating on one word sim task
 
 ```python wordsim.py word_vec_file word_sim_file```
 
 ```word_sim_file``` should be in the same format as files in ```data/word-sim/```
+
+### Reference
+
+Please make sure to cite the papers corresponding to the word similarity dataset that you are using. This
+list of citation can be found at ```http://www.wordvectors.org/```.
+
+Please cite the following paper if you use this tool:
+```
+@InProceedings{faruqui-2014:SystemDemo,
+  author    = {Faruqui, Manaal  and  Dyer, Chris},
+  title     = {Community Evaluation and Exchange of Word Vectors at wordvectors.org},
+  booktitle = {Proceedings of ACL: System Demonstrations},
+  year      = {2014},
+}
+```
