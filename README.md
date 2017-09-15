@@ -1,5 +1,5 @@
 # eval-word-vectors
-Manaal Faruqui, mfaruqui@cs.cmu.edu
+Manaal Faruqui, manaalfar@gmail.com
 
 Easy-to-use scripts for evaluating word vectors on a variety of tasks.
 These are the scripts that run behind the online tool on ```http://www.wordvectors.org/```.
